@@ -1,4 +1,22 @@
+/* Root Style */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+.ph-btn-color {
+  background-color: #a4bc46;
+}
+.ph-btn-color:hover {
+  background-color: #ffc107;
+  color: black;
+}
+
 /* Navigation Section Style */
+.header-bg {
+  background-color: #fffbf0;
+}
 .navigation-bar .logo {
   width: 290px;
 }
@@ -6,4 +24,10 @@
   .navbar-expand-lg .navbar-collapse {
     justify-content: end;
   }
+}
+
+/* Hero Section Style */
+.hero-section h1 {
+  font-size: 80px;
+  font-weight: 400;
 }
