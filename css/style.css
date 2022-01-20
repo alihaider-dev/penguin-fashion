@@ -1,0 +1,9 @@
+/* Navigation Section Style */
+.navigation-bar .logo {
+  width: 290px;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+  }
+}
